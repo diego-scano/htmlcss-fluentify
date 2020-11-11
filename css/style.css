@@ -1,0 +1,149 @@
+/* UTILITY CLASSES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  height: 50000px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+/* END UTILITY CLASSES */
+
+
+/* STYLE */
+.header-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  padding-top: 10px;
+}
+
+.logo > img {
+  padding-right: 50px;
+}
+
+header {
+  height: 600px;
+  background-color: #0C325A;
+  background-image: url("../img/image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+}
+
+.sidebar ul li {
+  display: inline-block;
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+nav > .sidebar:nth-child(3) > ul > li:nth-child(2) > a {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav > .sidebar:nth-child(3) > ul > li:nth-child(3) > a {
+  background-color: #7CBB02;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main-title {
+  width: 600px;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.main-subtitle {
+  position: absolute;
+  bottom: 20%;
+  transform: translate(0, -50%);
+  background-color: #7CBB02;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.main-subtitle > a {
+  text-decoration: none;
+  color: white;
+}
+
+.grey-row {
+  background-color: #D3D3D3;
+  height: 150px;
+  text-align: center;
+  line-height: 75px;
+  margin-bottom: 40px;
+}
+
+.row1 {
+  font-size: 30px;
+}
+
+.row2 {
+  font-size: 20px;
+  color: grey;
+}
+
+.box-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.main-box {
+  width: 33%;
+  height: 150px;
+  text-align: center;
+}
+
+.img-title {
+  font-size: 25px;
+  color: #7CBB02;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.main-box > img {
+  height: 100%;
+}
+
+.hr {
+  width: 50px;
+  margin: 20px auto;
+}
+
+.paragraph {
+  width: 90%;
+  margin: 0 auto;
+}
